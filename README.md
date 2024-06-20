@@ -1,8 +1,5 @@
-# React + Vite
+# Book Rental
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+使用React(React Context、React Router、Reducer)和Tailwind CSS构建图书租赁应用，具有Dark/Light模式和收藏夹、添加到购物车功能等。
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![github-preview](./src/assets/github-preview.png)
