@@ -1,15 +1,7 @@
-import { useState } from 'react'
+import Main from './components/Main';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div className="app">
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button>
-    </div>
-  )
+  return <Main></Main>
 }
 
 export default App;
