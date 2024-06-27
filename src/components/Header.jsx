@@ -9,10 +9,12 @@ const Header = memo(() => {
   return (
     <header>
       <nav className="container flex items-center justify-between py-5">
-        <Link to="/" className="flex gap-2 items-center">
+        <Link to="/" className="flex gap-2">
           <IoBookSharp className="w-8 h-8" />
 
-          <span className="font-bold uppercase">book rental</span>
+          <span className="font-bold text-lg tracking-widest">
+            图书租赁
+          </span>
         </Link>
 
         <ul className="flex items-center space-x-5">

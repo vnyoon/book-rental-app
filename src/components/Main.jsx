@@ -11,7 +11,7 @@ const Main = memo(() => {
     <div className="min-h-screen flex flex-col">
       <Header/>
 
-      <main className="bg-red-300 flex-1 container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
+      <main className="flex-1 container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
         <Sidebar/>
         
         <Outlet/>
